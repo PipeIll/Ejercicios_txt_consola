@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Tabla {
+ public static void main (String args []) {
+  Scanner leer = new Scanner (System.in);
+  System.out.println("Como te llamas?");
+  String name = leer.nextLine();
+  System.out.println("Hola "+name+" bienvenido a java en consola.");
+  Scanner sn = new Scanner (System.in);
+  System.out.println("ingrese el numero que desea multiplicar: ");
+  int num = sn.nextInt();
+  System.out.println("Esta es la tabla del: "+num);
+  System.out.println(num+" x 1 = "+(num*1));
+  System.out.println(num+" x 2 = "+(num*2));
+  System.out.println(num+" x 3 = "+(num*3));
+  System.out.println(num+" x 4 = "+(num*4));
+  System.out.println(num+" x 5 = "+(num*5));
+  System.out.println(num+" x 6 = "+(num*6));
+  System.out.println(num+" x 7 = "+(num*7));
+  System.out.println(num+" x 8 = "+(num*8));
+  System.out.println(num+" x 9 = "+(num*9));
+  System.out.println(num+" x 10 = "+(num*10));
+
+ }
+}

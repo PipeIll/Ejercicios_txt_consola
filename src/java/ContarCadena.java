@@ -1,0 +1,44 @@
+import java.util.Scanner; 
+
+public class ContarCadena {
+
+    public static String ConCat3(String A){
+    return A.concat(A).concat(A);
+    }
+
+    public static void main(String[] args){
+        Scanner sn = new Scanner(System.in);
+        System.out.println("Escribe Algo");
+        String A = sn.nextLine();
+        System.out.println(ConCat3(A));
+
+
+        int result1 = sumar(11, 1);
+        System.out.println(result1);
+        
+        int result2 = sumar(15, 3);
+        System.out.println(result2);
+        
+        OtraSuma(90, 9);
+    }
+
+    public static String Resultado(int Contando){
+    return "Tu nombre tiene  "+Contando+" letra";
+    }
+
+    public static int Contar(String name){
+    return name.length();
+    }
+
+    public static String Mayus(String name){
+    return name.toUpperCase().concat(" Bienvenid@ ");
+    }
+
+    public static void OtraSuma(int a, int b){
+    System.out.println("El resultado es: "+(a+b));
+    }
+
+    public static int sumar(int a, int b){
+    return a+b;
+    }
+}
