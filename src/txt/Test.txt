@@ -33,7 +33,7 @@ public class TestQuePokeMonEres {
         System.out.println("1. El que lidera aunque nadie se lo pida");
         System.out.println("2. El estratega que nadie ve venir");
         System.out.println("3. El soporte moral y emocional");
-        int preg5 = sn.nextInt();
+        int p5 = sn.nextInt();
 
         int total = p1 + p2 + p3 + p4 + p5;
 
